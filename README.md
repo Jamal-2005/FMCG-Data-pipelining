@@ -5,7 +5,7 @@ A production-grade, end-to-end data engineering pipeline built on **Databricks**
 ---
 
 ## 📸 Architecture Overview
-![Screenshot_17-3-2026_15355_dbc-aa304915-2a15 cloud databricks com](https://github.com/user-attachments/assets/e5657a32-e2d5-45a3-90c3-6b05763fcbc8)
+<img width="2816" height="1536" alt="Gemini_Generated_Image_lia0islia0islia0" src="https://github.com/user-attachments/assets/2d52f1f8-87df-475a-aed4-4a783933a127" />
 
 
 
