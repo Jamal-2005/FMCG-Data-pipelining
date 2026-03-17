@@ -5,10 +5,9 @@ A production-grade, end-to-end data engineering pipeline built on **Databricks**
 ---
 
 ## 📸 Architecture Overview
+<img width="2816" height="1536" alt="Gemini_Generated_Image_lia0islia0islia0" src="https://github.com/user-attachments/assets/db876b34-7159-4763-835d-64e3b3ba4b0e" />
 
-> _Add architecture diagram here (e.g., a flow diagram showing S3 → Bronze → Silver → Gold → Parent Catalog)_
 
-![Architecture Diagram](./images/architecture_diagram.png)
 
 ---
 
@@ -69,14 +68,6 @@ Curated, dimension-modelled tables ready for BI consumption and merged into the 
 
 ---
 
-## 📸 Medallion Layer Screenshot
-
-> _Add a screenshot of your Delta table explorer or data flow here_
-
-![Medallion Layers](./images/medallion_layers.png)
-
----
-
 ## 🧱 Data Model
 
 ### Dimension Tables
@@ -98,9 +89,8 @@ Curated, dimension-modelled tables ready for BI consumption and merged into the 
 
 ## 📸 Gold Layer Tables
 
-> _Add a screenshot of your gold-layer tables or a sample query result here_
+<img width="1509" height="784" alt="image" src="https://github.com/user-attachments/assets/8637952b-f6d9-4735-b727-c0a05eb9d21d" />
 
-![Gold Tables](./images/gold_tables.png)
 
 ---
 
@@ -168,9 +158,8 @@ Handles daily incremental data with staging tables to avoid reprocessing:
 
 ## 📸 Incremental Load Flow
 
-> _Add a diagram or screenshot showing the staging → silver → gold → parent merge flow_
+<img width="2816" height="1536" alt="Gemini_Generated_Image_2o2g6k2o2g6k2o2g" src="https://github.com/user-attachments/assets/bb404d1e-a5dc-4059-adf6-93838b687f4b" />
 
-![Incremental Load](./images/incremental_load_flow.png)
 
 ---
 
@@ -237,9 +226,8 @@ sb_fact_orders         ──▶      fact_orders
 
 ## 📸 Parent-Child Merge
 
-> _Add a screenshot showing the parent gold table after a successful merge from the child entity_
+<img width="1831" height="820" alt="image" src="https://github.com/user-attachments/assets/16f5088e-4c08-490d-9720-0c6979797d42" />
 
-![Parent Merge](./images/parent_child_merge.png)
 
 ---
 
